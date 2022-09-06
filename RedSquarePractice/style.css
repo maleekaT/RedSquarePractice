@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:  #111111;
+    color: #fefefe;
+}
+
+nav {
+    padding-top: 7%;  
+}
+
+#logo {
+    padding-left: 13%;
+}
+
+#work {
+    float: right;
+    padding-right: 15%;
+    font: 20px Circular-Book , sans-serif;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.images  {
+    margin:0 auto;
+    width: 1200px;
+    height: 700px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url('1.jpg');
+}
+
+
+h2 {
+    font: 63px Circular-Book , sans-serif;
+    font-weight: bolder;
+    margin: 10% 10% 6%;
+}
+
+.text2 p {
+    font: 40px Circular-Book , sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 8%;
+}
+
+.selectC {
+    color : #858585;
+    float: left;
+    width:40%;
+    text-align: left;
+    font: 18px Circular-Book , sans-serif;
+    padding-left: 2.3%;
+}
+
+.names1 {
+    float:left; 
+    width:30%;
+    font: 23px Circular-Book , sans-serif;
+
+}
+
+.names2 {
+    float:right; 
+    width:30%;
+    font: 23px Circular-Book , sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.clientSection {
+    padding-left: 8%;
+    margin-top: 120px;
+    padding-right: 10%;
+    margin-bottom: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact h4 {
+    font: 64px Circular-Book , sans-serif;
+    font-weight: bold;
+}
+
+h4 span {
+    color: #e31e3c;
+}
+.contact {
+    margin: 10%;
+}
+
+.socialmedia {
+    float: right;
+}
+
+.places {
+    float: right;
+    clear: right;
+    margin-top: 30px;
+}
+
+#insta, #twitter, #linkedin {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+#ok, #al, #il {
+    font: 18px Circular-Book , sans-serif;
+    display: inline;
+    padding-right: 30px;
+}
+
+h5 {
+    color: #858585;
+}
+
+hr {
+    align-items: center;
+    width : 80%;
+    margin :auto;
+    border: 1px solid rgb(128, 128, 128);
+
+}
+
+.text h1 {
+    font: 70px youngserifregular;
+    color: #fefefe;
+    padding-left: 13%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+.animated-text {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.animated-text.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
